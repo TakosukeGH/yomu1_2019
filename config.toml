@@ -1,0 +1,3 @@
+baseURL = "https://yomu1.netlify.com/"
+languageCode = "ja"
+title = "Hugo Netlify Sample"
