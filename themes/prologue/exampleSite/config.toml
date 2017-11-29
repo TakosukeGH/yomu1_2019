@@ -1,76 +1,76 @@
-languageCode = "en-us"
-title = "Prologue"
+languageCode = "jp"
+title = "YOMU1"
 baseurl = "http://example.org/"
 theme = "prologue"
 
 [params]
-  name = "Jane Doe"
-  description = "Hyperspace Engineer"
-  copyright = "Untitled."
+  name = "読ム-1グランプリ"
+  description = "読ム-1グランプリ"
+  copyright = "読ム-1グランプリ."
 
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
   link = "#"
 
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
+# [[params.social]]
+#   medium = "facebook"
+#   icon = "facebook"
+#   link = "#"
 
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
+# [[params.social]]
+#   medium = "github"
+#   icon = "github"
+#   link = "#"
 
-[[params.social]]
-  medium = "dribbble"
-  icon = "dribbble"
-  link = "#"
+# [[params.social]]
+#   medium = "dribbble"
+#   icon = "dribbble"
+#   link = "#"
 
-[[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
+# [[params.social]]
+#   medium = "email"
+#   icon = "envelope"
+#   link = "#"
 
 # Portfolio column one
 
 [[params.portfolio1]]
-  title = "Ipsum Feugiat"
+  title = "Performer 1"
   alt = ""
-  source = "img/pic02.jpg"
+  source = "img/pic02.png"
   url = "#"
 
 [[params.portfolio1]]
-  title = "Rhoncus Semper"
+  title = "Performer 2"
   alt = ""
-  source = "img/pic03.jpg"
+  source = "img/pic03.png"
   url = "#"
 
 # Portfolio column two
 
 [[params.portfolio2]]
-  title = "Magna Nullam"
+  title = "Performer 3"
   alt = ""
-  source = "img/pic04.jpg"
+  source = "img/pic04.png"
   url = "#"
 
 [[params.portfolio2]]
-  title = "Natoque Vitae"
+  title = "Performer 4"
   alt = ""
-  source = "img/pic05.jpg"
+  source = "img/pic05.png"
   url = "#"
 
 # Portfolio column 3
 
 [[params.portfolio3]]
-  title = "Dolor Penatibus"
+  title = "Performer 5"
   alt = ""
-  source = "img/pic06.jpg"
+  source = "img/pic06.png"
   url = "#"
 
 [[params.portfolio3]]
-  title = "Orci Convallis"
+  title = "Performer 6"
   alt = ""
-  source = "img/pic07.jpg"
+  source = "img/pic07.png"
   url = "#"

@@ -1,76 +1,184 @@
-languageCode = "jp"
-title = "YOMU1"
-baseurl = "http://example.org/"
-theme = "prologue"
+baseurl = "/"
+languageCode = "ja"
+title = "読ム-1グランプリ"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "shortname"
+googleAnalytics = ""
+pluralizeListTitles = false
 
 [params]
-  name = "YOMU1GP"
-  description = "YOMU One GP"
-  copyright = "YOMU One GP."
+  # Sets the meta tag description
+  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "YOMU-1 GP"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
 
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = false
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = true
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
 
-# [[params.social]]
-#   medium = "facebook"
-#   icon = "facebook"
-#   link = "#"
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = false
+  # Sets the location for Staticman to connect to
+  username  = ""
+  repo      = ""
+  branch    = ""
 
-# [[params.social]]
-#   medium = "github"
-#   icon = "github"
-#   link = "#"
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "読ム-１グランプリ"
 
-# [[params.social]]
-#   medium = "dribbble"
-#   icon = "dribbble"
-#   link = "#"
+  paragraph = "ボイスロイド漫才コンテスト"
 
-# [[params.social]]
-#   medium = "email"
-#   icon = "envelope"
-#   link = "#"
+  # about     = "about sample text"
 
-# Portfolio column one
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/main/logo.png"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = true
+    width     = "100"
+    alt       = "Hugo Future Imperfect"
 
-[[params.portfolio1]]
-  title = "Performer 1"
-  alt = ""
-  source = "img/pic02.png"
-  url = "#"
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 1
 
-[[params.portfolio1]]
-  title = "Performer 2"
-  alt = ""
-  source = "img/pic03.png"
-  url = "#"
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "ホーム"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
 
-# Portfolio column two
+# [[menu.main]]
+#   name = "概要"
+#   url = "/about/"
+#   identifier = "fa fa-id-card-o"
+#   weight = 2
 
-[[params.portfolio2]]
-  title = "Performer 3"
-  alt = ""
-  source = "img/pic04.png"
-  url = "#"
+[[menu.main]]
+  name = "募集要項"
+  url = "/entry/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
+#
+# [[menu.main]]
+#   name = "Blog"
+#   url = "/blog/"
+#   identifier = "fa fa-newspaper-o"
+#   weight = 3
 
-[[params.portfolio2]]
-  title = "Performer 4"
-  alt = ""
-  source = "img/pic05.png"
-  url = "#"
+[[menu.main]]
+  name = "大会ルール"
+  url = "/rule/"
+  identifier = "fa fa-book"
+  weight = 3
 
-# Portfolio column 3
+# [[menu.main]]
+#   name = "Itemized"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
 
-[[params.portfolio3]]
-  title = "Performer 5"
-  alt = ""
-  source = "img/pic06.png"
-  url = "#"
+[[menu.main]]
+  name = "スケジュール"
+  url = "/schedule/"
+  identifier = "fa fa-calendar"
+  weight = 4
 
-[[params.portfolio3]]
-  title = "Performer 6"
-  alt = ""
-  source = "img/pic07.png"
-  url = "#"
+# [[menu.main]]
+#   name = "Categories"
+#   url = "/categories/"
+#   identifier = "fa fa-sitemap"
+#   weight = 5
+
+# [[menu.main]]
+#   name = "Contact"
+#   url = "/contact/"
+#   identifier = "fa fa-envelope-o"
+#   weight = 6
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  # github          = "jpescador/hugo-future-imperfect"
+  gitlab          = ""
+  stackoverflow   = "" # User Number
+  bitbucket       = ""
+  jsfiddle        = ""
+  codepen         = ""
+  # Visual Art Communities
+  deviantart      = ""
+  # flickr          = "example"
+  behance         = ""
+  dribbble        = ""
+  # Publishing Communities
+  wordpress       = ""
+  medium          = ""
+  # Professional/Business Oriented Communities
+  # linkedin        = "example"
+  foursquare      = ""
+  xing            = ""
+  slideshare      = ""
+  # Social Networks
+  # facebook        = "example"
+  googleplus      = ""
+  # reddit          = "example"
+  quora           = ""
+  youtube         = ""
+  vimeo           = ""
+  whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat          = ""
+    qq              = "" # User ID Number
+  # instagram       = "example"
+  tumblr          = ""
+  twitter         = "Yomu_1GP"
+  skype           = ""
+  snapchat        = ""
+  # pinterest       = "example"
+  # telegram        = "example"
+  # vine            = ""
+  # Email
+  # email           = "example"
+  community       = "co0000000"
