@@ -27,7 +27,7 @@ date = "2014-04-09"
 
 # 運営メンバー　（五十音順・敬称略）
 
-- [犬風邪P](https://twitter.com/inukazep)
-- [にじみこんいろ](https://twitter.com/suidasisan)
-- [破線](https://twitter.com/h_a_s_e_n)
-- [人コナーズ](http://www.nicovideo.jp/user/15326247)
+- [犬風邪P]()
+- [にじみこんいろ]()
+- [破線]()
+- [人コナーズ]()
