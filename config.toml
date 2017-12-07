@@ -88,17 +88,17 @@ pluralizeListTitles = false
   identifier = "fa fa-home"
   weight = 1
 
-# [[menu.main]]
-#   name = "概要"
-#   url = "/about/"
-#   identifier = "fa fa-id-card-o"
-#   weight = 2
+[[menu.main]]
+  name = "概要"
+  url = "/about/"
+  identifier = "fa fa-question-circle"
+  weight = 2
 
 [[menu.main]]
   name = "募集要項"
   url = "/entry/"
   identifier = "fa fa-id-card-o"
-  weight = 2
+  weight = 3
 #
 # [[menu.main]]
 #   name = "Blog"
@@ -110,7 +110,7 @@ pluralizeListTitles = false
   name = "大会ルール"
   url = "/rule/"
   identifier = "fa fa-book"
-  weight = 3
+  weight = 4
 
 # [[menu.main]]
 #   name = "Itemized"
@@ -122,7 +122,7 @@ pluralizeListTitles = false
   name = "スケジュール"
   url = "/schedule/"
   identifier = "fa fa-calendar"
-  weight = 4
+  weight = 5
 
 # [[menu.main]]
 #   name = "Categories"
