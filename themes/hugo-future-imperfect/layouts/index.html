@@ -21,6 +21,47 @@
     <div id="content">
       {{ .Content }}
     </div>
+    <section id="recent-posts">
+      <div class="mini-posts">
+        <header>
+          <h2>運営からのお知らせ</h2>
+        </header>
+        <div class="posts-container">
+          {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+          {{ with .Site.Params.postAmount.sidebar }}
+            {{ $.Scratch.Set "postLimit" . }}
+          {{ else }}
+            {{ $.Scratch.Set "postLimit" 5 }}
+          {{ end }}
+
+          {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+            <article class="mini-post">
+              <header>
+                <h3>
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h3>
+                {{ $.Scratch.Set "dateType" .Date }}
+                <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                  {{ ($.Scratch.Get "dateType").Format "2006-01-02" }}
+                </time>
+              </header>
+              {{ .Render "featured" }}
+            </article>
+          {{ end }}
+        </div>
+
+        {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
+          <a href=
+            {{ with .Site.Params.viewMorePostLink }}
+              {{ . }}
+            {{ else }}
+              "/post/"
+            {{ end }}
+          class="button">その他のお知らせ</a>
+        {{ end }}
+      </div>
+    </section>
   </article>
 </div>
 {{ partial "sidebar" . }}
