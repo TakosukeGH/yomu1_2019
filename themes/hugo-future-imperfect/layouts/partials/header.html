@@ -37,30 +37,36 @@
         {{ template "_internal/schema.html" . }}
         {{ template "_internal/google_news.html" . }}
 
-        {{ if isset .Site.Params "customcss" }}
-            {{ $.Scratch.Set "cssFiles" .Site.Params.customCSS }}
-        {{ else }}
-            {{ $.Scratch.Set "cssFiles" false }}
-        {{ end }}
-
-        <!-- If the value "default" is passed into the param then we will first
-             load the standard css files associated with the theme -->
-        {{ if or (in ($.Scratch.Get "cssFiles") "default") (eq ($.Scratch.Get "cssFiles") false) }}
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
-            <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-            <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
-        {{ end }}
-
-        {{ if ne ($.Scratch.Get "cssFiles") false }}
-            {{ range $.Scratch.Get "cssFiles" }}
-                {{ if ne . "default" }}
-                    <link rel="stylesheet" href="{{ . | relURL }}">
-                {{ end }}
-            {{ end }}
-        {{ end }}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/type.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/author_format.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/box.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/button.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/form.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/icon.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/image.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/list.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/mini_post.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/post.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/itemized.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/section_article.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/table.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/fancybox.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/staticman_comments.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/header.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/wrapper.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/main_id.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/sidebar.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/intro.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/footer.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/back_to_top.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/menu.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/social_share_button.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/share_menu.css" | relURL }}">
 
       {{ template "_internal/google_analytics.html" . }}
     </head>

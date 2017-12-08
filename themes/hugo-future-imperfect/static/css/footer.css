@@ -1,0 +1,15 @@
+/* Footer */
+
+#footer .icons {
+	color: #aaaaaa;
+}
+
+#footer .copyright {
+	text-align: center;
+	color: #aaaaaa;
+	font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 0.5em;
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+}
