@@ -46,3 +46,8 @@
 
 }
 
+#sidebar #footer .icons {
+	margin: 0px 0px 0px;
+	text-align: center;
+	font-size: 2.0em;
+}

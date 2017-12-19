@@ -94,12 +94,14 @@ ul.actions li:last-child {
 }
 
 ul.actions.pagination .button {
-  background: white;
+  /* background: white; */
+  background: #1e1e1e;
+	color: #ffffff;
 	line-height: 2.5em;
   height: auto;
   white-space: normal;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 ul.actions.pagination .next {
