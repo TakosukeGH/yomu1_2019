@@ -17,7 +17,7 @@ pluralizeListTitles = false
   viewMorePostLink     = "/announcement/"
 
   # ツイッター用画像
-  images = ["https://yomu1.netlify.com/img/main/logo_twitter.png"]
+  images = ["https://yomu1.netlify.com/img/twitter/twitter_large.png"]
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -110,7 +110,7 @@ pluralizeListTitles = false
 #   weight = 3
 
 [[menu.main]]
-  name = "大会ルール・参加方法"
+  name = "ルール/参加方法"
   url = "/rule/"
   identifier = "fa fa-book"
   weight = 4
