@@ -16,6 +16,9 @@ pluralizeListTitles = false
   # Sets where "View More Posts" links
   viewMorePostLink     = "/announcement/"
 
+  # ツイッター用画像
+  images = ["/img/main/logo_twitter.png"]
+
 # Optional Params
   # Sets navbarTitle to match the section of the website
   dynamicTitles        = true
