@@ -2,7 +2,7 @@
 
 body, input, select, textarea {
 	/*color: #000000;*/
-	color: #eeeeee;
+	color: #ffffff;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 14pt;
 	font-weight: 400;
@@ -10,43 +10,33 @@ body, input, select, textarea {
 }
 
 @media screen and (max-width: 1680px) {
-
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
 }
 
 @media screen and (max-width: 1280px) {
-
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
 }
 
 @media screen and (max-width: 980px) {
-
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
 }
 
 @media screen and (max-width: 736px) {
-
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
 }
 
 @media screen and (max-width: 480px) {
-
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
 }
 
 a {
@@ -68,11 +58,13 @@ a:before {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #2ebaae !important;
+	/* color: #2ebaae !important; */
+	color: #ff9999 !important;
 }
 
 a:hover:before {
-	color: #2ebaae !important;
+	/* color: #2ebaae !important; */
+	color: #ff9999 !important;
 }
 
 strong, b {
@@ -91,7 +83,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	/*タイトルとか*/
 	/*color: #3c3b3b;*/
-	color: #3998d6;
+	/* color: #3998d6; */
+	color: #ff9999;
 	font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-weight: 800;
 	letter-spacing: 0.25em;

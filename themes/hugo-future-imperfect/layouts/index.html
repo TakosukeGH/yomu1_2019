@@ -51,7 +51,7 @@
           {{ end }}
         </div>
 
-        {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
+        <!-- {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
           <a href=
             {{ with .Site.Params.viewMorePostLink }}
               {{ . }}
@@ -59,7 +59,7 @@
               "/post/"
             {{ end }}
           class="button">その他のお知らせ</a>
-        {{ end }}
+        {{ end }} -->
       </div>
     </section>
   </article>

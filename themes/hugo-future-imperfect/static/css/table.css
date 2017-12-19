@@ -9,7 +9,8 @@ table {
 	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 	-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
-	border: 0;
+	border: solid 1px #3f3f3f;
+	font-weight: bold;
 }
 
 table > thead {
@@ -71,7 +72,6 @@ table > tbody > tr > td:first-child {
 }
 
 @media screen and (max-width: 715px) {
-
 	table {
 		width: 75%;
 		margin: auto;

@@ -27,7 +27,7 @@ article.post h2,
 article.post h3,
 article.post h4 {
   /*color: #000000;*/
-  color: #cccccc;
+  color: #ffffff;
   /* Theoretically for IE 8 & 9 (more valid) */
   /* ...but not required as filter works too */
   /* should come BEFORE filter */
@@ -51,6 +51,6 @@ article.post h2 {
 
 article.post p {
 	font-size: 130%;
-	padding-left: 2.0em;
+	padding-left: 1.5em;
 }
 

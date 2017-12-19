@@ -14,7 +14,7 @@ pluralizeListTitles = false
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "YOMU-1 GP"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/announcement/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -73,7 +73,7 @@ pluralizeListTitles = false
     circle    = true
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
-    width     = "100"
+    width     = "150"
     alt       = "Hugo Future Imperfect"
 
 [params.postAmount]
@@ -94,11 +94,11 @@ pluralizeListTitles = false
   identifier = "fa fa-question-circle"
   weight = 2
 
-[[menu.main]]
-  name = "募集要項"
-  url = "/entry/"
-  identifier = "fa fa-id-card-o"
-  weight = 3
+# [[menu.main]]
+#   name = "募集要項"
+#   url = "/entry/"
+#   identifier = "fa fa-id-card-o"
+#   weight = 3
 #
 # [[menu.main]]
 #   name = "Blog"
@@ -107,7 +107,7 @@ pluralizeListTitles = false
 #   weight = 3
 
 [[menu.main]]
-  name = "大会ルール"
+  name = "大会ルール・参加方法"
   url = "/rule/"
   identifier = "fa fa-book"
   weight = 4
