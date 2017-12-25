@@ -45,11 +45,18 @@ article.post h4 {
 article.post h1 {
 	font-size: 150%;
 }
+
 article.post h2 {
 	font-size: 150%;
+	padding-left: 0.75em;
 }
 
 article.post p {
+	font-size: 130%;
+	padding-left: 1.5em;
+}
+
+article.post ul {
 	font-size: 130%;
 	padding-left: 1.5em;
 }

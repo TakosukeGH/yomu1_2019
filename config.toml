@@ -127,6 +127,24 @@ pluralizeListTitles = false
   identifier = "fa fa-calendar"
   weight = 5
 
+[[menu.main]]
+  name = "参加者一覧"
+  url = "/performer/"
+  identifier = "fa fa-users"
+  weight = 6
+
+[[menu.main]]
+  name = "結果発表"
+  url = "/result/"
+  identifier = "fa fa-flag-checkered"
+  weight = 7
+
+[[menu.main]]
+  name = "いただき物"
+  url = "/gift/"
+  identifier = "fa fa-gift"
+  weight = 8
+
 # [[menu.main]]
 #   name = "Categories"
 #   url = "/categories/"

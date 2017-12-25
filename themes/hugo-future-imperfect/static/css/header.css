@@ -50,7 +50,7 @@ body {
 }
 
 #header h1 a {
-	font-size: 1.0em;
+	font-size: 0.8em;
 }
 
 #header h2 {
@@ -114,11 +114,21 @@ body {
 #header .links ul li a {
 	border-bottom: 0;
 	font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	font-size: 1.0em;
+	font-size: 0.8em;
 	font-weight: 400;
 	letter-spacing: 0.25em;
 	text-transform: uppercase;
 }
+
+/* #header .links ul li a p i {
+	margin: 1.0em 0 0 0;
+	font-size: 2.0em;
+
+}
+
+#header .links ul li a p {
+	margin: -0.5em 0 0 0;
+} */
 
 #header .main {
 	height: inherit;
@@ -222,12 +232,31 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-
-		#header .menu {
-			display: none;
-		}
-
+	#header .menu {
+		display: none;
 	}
+
+	#header .here {
+		display: none;
+	}
+
+	#header .links {
+		margin-left: 0;
+		border-left: 0;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	#header .here {
+		display: none;
+	}
+	#header .links {
+		margin-left: 0;
+		border-left: 0;
+	}
+}
+
 
 @media screen and (max-width: 980px) {
 
@@ -235,6 +264,9 @@ body {
 		display: none;
 	}
 
+	#header .here {
+		display: flex;
+	}
 }
 
 @media screen and (max-width: 736px) {
@@ -244,13 +276,13 @@ body {
 		line-height: 2.75em;
 	}
 
-		#header h1 {
-			padding: 0 0 0 1em;
-		}
+	#header h1 {
+		padding: 0 0 0 1em;
+	}
 
-		#header .main .search {
-			display: none;
-		}
+	#header .main .search {
+		display: none;
+	}
 
 }
 
