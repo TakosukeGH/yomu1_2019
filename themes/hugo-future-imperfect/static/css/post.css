@@ -88,10 +88,21 @@
   border-bottom-color: transparent;
 }
 
-#content blockquote,
-#content p,
+#content p {
+	margin: 1em 0;
+}
+
 #content ul{
   margin: 1em 0;
+}
+
+.rule + ul li {
+	margin-bottom: 0.6em;
+	color: #e1e1e1;
+}
+
+#content blockquote p {
+	margin: 0;
 }
 
 .post > .image.featured {

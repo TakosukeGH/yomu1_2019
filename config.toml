@@ -110,7 +110,7 @@ pluralizeListTitles = false
 #   weight = 3
 
 [[menu.main]]
-  name = "ルール"
+  name = "ルール・エントリー方法"
   url = "/rule/"
   identifier = "fa fa-book"
   weight = 4

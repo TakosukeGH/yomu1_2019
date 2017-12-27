@@ -27,7 +27,8 @@ article.post h2,
 article.post h3,
 article.post h4 {
   /*color: #000000;*/
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #e1e1e1;
   /* Theoretically for IE 8 & 9 (more valid) */
   /* ...but not required as filter works too */
   /* should come BEFORE filter */
@@ -35,10 +36,10 @@ article.post h4 {
 
   /* This works in IE 8 & 9 too */
   /* ... but also 5, 6, 7 */
-  filter: alpha(opacity=87);
+  /* filter: alpha(opacity=87); */
 
   /* Modern Browsers */
-  opacity: 0.87;
+  /* opacity: 0.87; */
 }
 
 /*デザイン変更箇所*/
@@ -59,5 +60,10 @@ article.post p {
 article.post ul {
 	font-size: 130%;
 	padding-left: 1.5em;
+}
+
+article.post ol {
+	font-size: 130%;
+	padding-left: 2.0em;
 }
 
