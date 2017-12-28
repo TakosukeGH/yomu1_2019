@@ -92,6 +92,18 @@
 	margin: 1em 0;
 }
 
+#content .performer_schedule + p {
+	margin-top: -1.0em;
+	padding-left: 2.5em;
+}
+
+#content .rule_detail + p {
+	margin-left: 3.0em;
+	margin-top: -1.0em;
+	padding-left: 1.0em;
+	border-left: solid 3px rgba(160, 160, 160, 0.3);
+}
+
 #content ul{
   margin: 1em 0;
 }
@@ -99,6 +111,11 @@
 .rule + ul li {
 	margin-bottom: 0.6em;
 	color: #e1e1e1;
+	/* color: #fffacd; */
+}
+
+.rule + ul li b {
+	/* color: #ffff99; */
 }
 
 #content blockquote p {
