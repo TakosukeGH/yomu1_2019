@@ -100,8 +100,8 @@
 #content .rule_detail + p {
 	margin-left: 3.0em;
 	margin-top: -1.0em;
-	padding-left: 1.0em;
-	border-left: solid 3px rgba(160, 160, 160, 0.3);
+	padding-left: 0;
+	/* border-left: solid 3px rgba(160, 160, 160, 0.3); */
 }
 
 #content ul{
