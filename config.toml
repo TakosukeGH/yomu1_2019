@@ -64,7 +64,7 @@ pluralizeListTitles = false
 [params.intro]
   header    = "読ム-１グランプリ"
 
-  paragraph = "ボイスロイド漫才コンテスト"
+  paragraph = "TTS漫才大会"
 
   # about     = "about sample text"
 
@@ -121,11 +121,11 @@ pluralizeListTitles = false
 #   identifier = "fa fa-list"
 #   weight = 4
 
-[[menu.main]]
-  name = "スケジュール"
-  url = "/schedule/"
-  identifier = "fa fa-calendar"
-  weight = 5
+# [[menu.main]]
+#   name = "スケジュール"
+#   url = "/schedule/"
+#   identifier = "fa fa-calendar"
+#   weight = 5
 
 [[menu.main]]
   name = "参加者一覧"
