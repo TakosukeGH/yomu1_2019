@@ -25,6 +25,7 @@ title = "概要"
 
 # 運営リンク
 
+- [読ム-１グランプリ運営メール](<mailto:yomuwan@outlook.jp>)
 - [大会ツイッターアカウント](https://twitter.com/Yomu_1GP)
 - [大会コミュニティ](https://com.nicovideo.jp/community/co3737919)
 
