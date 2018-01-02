@@ -33,9 +33,9 @@ title = "概要"
 
 # 運営メンバー　（五十音順・敬称略）
 
-- [犬風邪P](@inukazep)
-- [にじみこんいろ](@suidasisan)
-- [破線](@h_a_s_e_n)
+- [犬風邪P](https://twitter.com/inukazep)
+- [にじみこんいろ](https://twitter.com/suidasisan)
+- [破線](https://twitter.com/h_a_s_e_n)
 - [人コナーズ](http://www.nicovideo.jp/user/15326247)
 
 <br>
