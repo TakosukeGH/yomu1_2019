@@ -29,6 +29,7 @@ title = "概要"
 - [大会ツイッターアカウント](https://twitter.com/Yomu_1GP)
 - [大会コミュニティ](https://com.nicovideo.jp/community/co3737919)
 - [質問箱](https://peing.net/yomu_1gp)
+- [質問箱まとめ](https://twitter.com/i/moments/948073734111354881)
 
 <br>
 
