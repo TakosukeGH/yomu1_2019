@@ -33,6 +33,23 @@ title = "概要"
 
 <br>
 
+# 素材リンク
+
+<p>
+<iframe width="312" height="176" src="http://ext.seiga.nicovideo.jp/thumb/im7836885" scrolling="no" style="border:solid 1px #888;" frameborder="0"><a href="http://seiga.nicovideo.jp/seiga/im7836885">読ム-1グランプリ ロゴ</a></iframe>
+</p>
+
+読ム-１グランプリのロゴ（PNG画像）です。
+
+<p>
+<video id="video" src="/logo_BB.mp4" controls width=40%></video>
+</p>
+
+読ム-１グランプリ告知で使用されたロゴアニメーションBB素材です。  
+こちらは[専用アップローダー](https://ux.getuploader.com/YOMU_1GP2018/download/7)からダウンロードしてご使用ください。
+
+<br>
+
 # 運営メンバー　（五十音順・敬称略）
 
 - [犬風邪P](https://twitter.com/inukazep)
