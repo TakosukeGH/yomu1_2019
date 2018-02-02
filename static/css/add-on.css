@@ -35,7 +35,7 @@
 
 .performer-img > img {
   width: 150px;
-  min-width: 155px;
+  min-width: 150px;
   vertical-align: bottom;
 }
 
@@ -78,4 +78,14 @@
   padding-right: 0.5em;
 }
 
+@media screen and (max-width: 736px) {
 
+  .performer-img > img {
+    width: 90px;
+    min-width: 90px;
+  }
+
+  .performer-column-left {
+    min-width: 90px;
+  }
+}

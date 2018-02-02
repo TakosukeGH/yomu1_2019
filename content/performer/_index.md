@@ -3,7 +3,7 @@ title = "参加者一覧"
 +++
 
 <div>
-※掲載順序は五十音順です。
+※掲載順序はエントリー順です。
 <div>
 
 {{< performer
@@ -53,6 +53,8 @@ title = "参加者一覧"
   movie="https://www.youtube.com/watch?v=h6QXTiiPdgg"
   movie_text="imis!n - I need you【東北きりたん公式デモソング】"
 >}}
+
+
 
 
 
