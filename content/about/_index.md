@@ -35,9 +35,7 @@ title = "概要"
 
 # 素材リンク
 
-<p>
-<iframe width="312" height="176" src="http://ext.seiga.nicovideo.jp/thumb/im7836885" scrolling="no" style="border:solid 1px #888;" frameborder="0"><a href="http://seiga.nicovideo.jp/seiga/im7836885">読ム-1グランプリ ロゴ</a></iframe>
-</p>
+[<img src="/img/about/logo.png" height="350">](http://seiga.nicovideo.jp/seiga/im7836885)
 
 読ム-１グランプリのロゴ（PNG画像）です。
 
