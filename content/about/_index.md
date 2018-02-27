@@ -59,5 +59,26 @@ title = "概要"
 
 <br>
 
+# 協賛
+
+## 山亥様
+
+> Web漫画家  
+> WebコミックサイトGANMA！にて幽道少女-タオガール-を連載中  
+> ・[幽道少女-タオガール-](http://ganma.jp/taogirl)  
+> ・[Twitter (@yahm_ai)](https://twitter.com/yahm_ai)
+
+
+<br>
+
+
+## ＶＭ－１グランプリ運営様<br>(パトロセンタP様・目つき悪いP様)
+
+> 年末にニコニコ動画内で開催されているＶＯＣＡＬＯＩＤのオリジナル漫才コンテストの企画・運営を担当。  
+> ・[ＶＭ－１グランプリ2017 ホームページ](http://www.geocities.jp/r13_5034/11000/0700.html)  
+> ・[ＶＭ－１グランプリコミュニティ](http://com.nicovideo.jp/community/co627386)
+
+<br>
+
 
 
