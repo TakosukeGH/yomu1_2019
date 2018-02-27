@@ -5,7 +5,7 @@ title = "参加者一覧"
 <div>
 ※掲載順序はエントリー順です。
 <div>
-
+<br>
 {{< performer
   name="佐久知"
   img="/img/performer/01.jpg"
