@@ -1,0 +1,71 @@
+<div class="performer" id="{{ .Get "name"}}">
+  <div class="performer-base">
+    <div class="performer-img">
+      <img src="{{.Get "img" }}">
+    </div>
+    <div class="performer-items">
+      <div class="performer-item performer-item-name">
+        <!-- <div class="performer-icon"><i class="fa fa-user fa-fw"></i></div> -->
+        <div class="performer-data performer-name">{{.Get "name" }}</div>
+      </div>
+      {{ if .Get "link" }}
+      <div class="performer-item">
+        <!-- <div class="performer-icon"><i class="fa fa-link fa-fw"></i></div> -->
+        <div class="performer-data performer-url"><a href="{{.Get "link" }}" target="_blank">{{.Get "link_text" }}</a></div>
+      </div>
+      {{ end }}
+      <div class="performer-item">
+        <!-- <div class="performer-icon"><i class="fa fa-commenting fa-fw"></i></div> -->
+        <div class="performer-data performer-comment">{{.Get "comment" | safeHTML }}</div>
+      </div>
+      {{ if .Get "link2" }}
+      <div class="performer-item">
+        <div class="performer-icon"><i class="fa fa-link fa-fw"></i></div>
+        <div class="performer-data performer-url"><a href="{{.Get "link2" }}" target="_blank">{{.Get "link2_text" }}</a></div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ if .Get "link" }}
+  <div class="performer-info performer-links">
+    <div class="performer-column-left">
+    </div>
+    <div class="performer-items">
+      {{ if .Get "link3" }}
+      <div class="performer-item">
+        <div class="performer-icon"><i class="fa fa-link fa-fw"></i></div>
+        <div class="performer-data performer-url"><a href="{{.Get "link3" }}" target="_blank">{{.Get "link3_text" }}</a></div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ if .Get "movie" }}
+  <div class="performer-info performer-movies">
+    <div class="performer-column-left">
+    </div>
+    <div class="performer-items">
+      <div class="performer-item">
+        <div class="performer-icon"><i class="fa fa-video-camera fa-fw"></i></div>
+        <div class="performer-data performer-url"><a href="{{.Get "movie" }}" target="_blank">{{.Get "movie_text" }}</a></div>
+      </div>
+      {{ if .Get "movie2" }}
+      <div class="performer-item">
+        <div class="performer-icon"><i class="fa fa-video-camera fa-fw"></i></div>
+        <div class="performer-data performer-url"><a href="{{.Get "movie2" }}" target="_blank">{{.Get "movie2_text" }}</a></div>
+      </div>
+      {{ end }}
+      {{ if .Get "movie3" }}
+      <div class="performer-item">
+        <div class="performer-icon"><i class="fa fa-video-camera fa-fw"></i></div>
+        <div class="performer-data performer-url"><a href="{{.Get "movie3" }}" target="_blank">{{.Get "movie3_text" }}</a></div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+
+
+

@@ -4,3 +4,88 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   within the formating given.
 */
+
+.performer {
+  /* line-height:0; */
+  /* display: flex; */
+  font-size: 110%;
+  width: 100%;
+  border: solid 1px #333333;
+  margin-bottom: 1.5em;
+  background-color: #252525;
+}
+
+.performer-base {
+  display: flex;
+}
+
+.performer-info {
+  /* border-top: solid 1px #000000; */
+  display: flex;
+}
+
+/* .performer-links {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+} */
+
+.performer-movies {
+  padding-bottom: 0.5em;
+}
+
+.performer-img > img {
+  width: 150px;
+  min-width: 150px;
+  vertical-align: bottom;
+}
+
+.performer-column-left {
+  min-width: 150px;
+  padding-left: 1.0em;
+}
+
+.performer-items {
+  margin-right: 1.0em;
+}
+
+.performer-item {
+  display: flex;
+  padding-left: 1.0em;
+  /* padding-bottom: 0.1em; */
+  /* margin-top: 0.5em; */
+}
+
+.performer-name {
+  font-size: 150%;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+  color: #ff9999;
+  font-weight: bold;
+}
+
+.performer-item-name > .performer-icon > i {
+  padding-top: 1.0em;
+  vertical-align: text-bottom;
+}
+
+.performer-icon > .fa {
+  font-family: FontAwesome;
+  font-style: normal;
+  opacity: 0.5;
+}
+
+.performer-icon {
+  padding-right: 0.5em;
+}
+
+@media screen and (max-width: 736px) {
+
+  .performer-img > img {
+    width: 90px;
+    min-width: 90px;
+  }
+
+  .performer-column-left {
+    min-width: 90px;
+  }
+}

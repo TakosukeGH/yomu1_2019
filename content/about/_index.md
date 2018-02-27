@@ -35,9 +35,7 @@ title = "概要"
 
 # 素材リンク
 
-<p>
-<iframe width="312" height="176" src="http://ext.seiga.nicovideo.jp/thumb/im7836885" scrolling="no" style="border:solid 1px #888;" frameborder="0"><a href="http://seiga.nicovideo.jp/seiga/im7836885">読ム-1グランプリ ロゴ</a></iframe>
-</p>
+[<img src="/img/about/logo.png" height="350">](http://seiga.nicovideo.jp/seiga/im7836885)
 
 読ム-１グランプリのロゴ（PNG画像）です。
 
@@ -56,6 +54,27 @@ title = "概要"
 - [にじみこんいろ](https://twitter.com/suidasisan)
 - [破線](https://twitter.com/h_a_s_e_n)
 - [人コナーズ](http://www.nicovideo.jp/user/15326247)
+
+<br>
+
+# 協賛
+
+## 山亥様
+
+> Web漫画家  
+> WebコミックサイトGANMA！にて幽道少女-タオガール-を連載中  
+> ・[幽道少女-タオガール-](http://ganma.jp/taogirl)  
+> ・[Twitter (@yahm_ai)](https://twitter.com/yahm_ai)
+
+
+<br>
+
+
+## ＶＭ－１グランプリ運営様<br>(パトロセンタP様・目つき悪いP様)
+
+> 年末にニコニコ動画内で開催されているＶＯＣＡＬＯＩＤのオリジナル漫才コンテストの企画・運営を担当。  
+> ・[ＶＭ－１グランプリ2017 ホームページ](http://www.geocities.jp/r13_5034/11000/0700.html)  
+> ・[ＶＭ－１グランプリコミュニティ](http://com.nicovideo.jp/community/co627386)
 
 <br>
 

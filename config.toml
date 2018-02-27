@@ -45,7 +45,7 @@ pluralizeListTitles = false
   # files by adding the value, "default".
   # customCSS            = ["default", "/path/to/file"]
   # customJS             = ["default", "/path/to/file"]
-  customCSS            = ["default"]
+  customCSS            = ["default", "/css/add-on.css"]
   customJS             = ["default"]
 
 # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
