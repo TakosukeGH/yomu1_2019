@@ -73,14 +73,6 @@ title = "参加者一覧"
 >}}
 
 {{< performer
-  name="苑藤029"
-  img="/img/performer/09.jpg"
-  comment="<b>※出場辞退</b>"
-  link="http://www.nicovideo.jp/user/49526380"
-  link_text="user/49526380"
->}}
-
-{{< performer
   name="人コナーズ"
   img="/img/performer/10.jpg"
   comment="運営ですがボイスロイド買ったので参加します。"
@@ -179,7 +171,7 @@ title = "参加者一覧"
 {{< performer
   name="いちにぃ"
   img="/img/performer/22.jpg"
-  comment="あかりのあいを語る報復絶倒コントをお届けします。"
+  comment="ゆかり&あかりのあいを語る報復絶倒コントをお届けします。"
   link="http://www.nicovideo.jp/user/20192580"
   link_text="user/20192580"
 >}}

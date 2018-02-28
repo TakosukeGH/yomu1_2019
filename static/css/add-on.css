@@ -5,6 +5,10 @@
   within the formating given.
 */
 
+body {
+  word-break : break-all;
+}
+
 .performer {
   /* line-height:0; */
   /* display: flex; */
@@ -49,7 +53,7 @@
 }
 
 .performer-item {
-  display: flex;
+  /* display: flex; */
   padding-left: 1.0em;
   /* padding-bottom: 0.1em; */
   /* margin-top: 0.5em; */
@@ -87,5 +91,18 @@
 
   .performer-column-left {
     min-width: 90px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+
+  .performer-img > img {
+    width: 60px;
+    min-width: 60px;
+  }
+
+  .performer-column-left {
+    min-width: 60px;
   }
 }
