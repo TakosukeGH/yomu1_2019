@@ -114,7 +114,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
 >}}
 
 {{< performer
-  name="チーム名「忍者綴方狂室」"
+  name="チーム「忍者綴方狂室」"
   img="/img/performer/15.jpg"
   comment="「よし！二人でやる話芸やな！（曲解）」"
   link="http://www.nicovideo.jp/user/39276850"
