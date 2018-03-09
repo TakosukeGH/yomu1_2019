@@ -3,6 +3,8 @@ title = "大会ルール・エントリー方法"
 description = "読ム-１グランプリ2018の大会ルール・エントリー方法のページです！"
 +++
 
+<div class="end_event_announce"><i class="fa fa-exclamation-triangle"></i>　読ム-１グランプリ2018のエントリーを締め切りました</div>
+
 # 大会エントリー方法
 
 　読ム-1グランプリでは読み上げソフトによる漫才作品の出展を募集しております！  
