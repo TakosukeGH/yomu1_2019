@@ -249,5 +249,13 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link_text="user/73175678"
 >}}
 
+{{< performer
+  name="愛植男(あいうえお)"
+  img="/img/performer/32.jpg"
+  comment="健全に面白くできればと思います"
+  link="http://www.nicovideo.jp/user/70212875"
+  link_text="user/70212875"
+>}}
+
 
 
