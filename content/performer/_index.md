@@ -185,8 +185,69 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link_text="user/352624"
 >}}
 
-<div>
-※アイコン画像は2018/02/27の物を使用しています。
-</div>
+{{< performer
+  name="みしまコロ助"
+  img="/img/performer/23_2.jpg"
+  comment="笑いの神が降りてくることを祈って参加します"
+  link="http://www.nicovideo.jp/user/200723"
+  link_text="user/200723"
+>}}
+
+{{< performer
+  name="伊藤博文"
+  img="/img/performer/24.jpg"
+  comment="漫才のような動画をつくったことが無いですが頑張ります"
+  link="http://www.nicovideo.jp/user/63434417"
+  link_text="user/63434417"
+>}}
+
+{{< performer
+  name="橘田コボ"
+  img="/img/performer/25.jpg"
+  comment="ボイロ沼に浸かって半年ROMったので動画初投稿します。"
+  link="http://www.nicovideo.jp/user/76037550"
+  link_text="user/76037550"
+>}}
+
+{{< performer
+  name="To be Y"
+  img="/img/performer/26.jpg"
+  comment="いろんなことに手を出していきたい若者です。よろしくお願いします"
+  link="http://www.nicovideo.jp/user/57423366"
+  link_text="user/57423366"
+>}}
+
+{{< performer
+  name="会社から非想天則"
+  img="/img/performer/27.jpg"
+  comment="さぁ、砂糖を吐かせてやろう・・・！！"
+  link="http://www.nicovideo.jp/user/6058969"
+  link_text="user/6058969"
+>}}
+
+{{< performer
+  name="もれ"
+  img="/img/performer/28.jpg"
+  comment="オナホ系のネタでがんばります！"
+  link="http://www.nicovideo.jp/user/8977680"
+  link_text="user/8977680"
+>}}
+
+{{< performer
+  name="ウサギメンタルP"
+  img="/img/performer/29.jpg"
+  comment="楽しんで漫才するので頑張って聞いてください！"
+  link="http://www.nicovideo.jp/user/18247997"
+  link_text="user/18247997"
+>}}
+
+{{< performer
+  name="カフェmochafé"
+  img="/img/performer/31.jpg"
+  comment="四月一日に動画抜きにならないように、頑張って制作します。よろしくお願いします！"
+  link="http://www.nicovideo.jp/user/73175678"
+  link_text="user/73175678"
+>}}
+
 
 
