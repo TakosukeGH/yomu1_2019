@@ -242,6 +242,14 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
 >}}
 
 {{< performer
+  name="スラ"
+  img="/img/performer/30.jpg"
+  comment="姉妹が可愛くて琴葉面に堕ちたので初投稿です"
+  link="http://www.nicovideo.jp/user/52022728"
+  link_text="user/52022728"
+>}}
+
+{{< performer
   name="カフェmochafé"
   img="/img/performer/31.jpg"
   comment="四月一日に動画抜きにならないように、頑張って制作します。よろしくお願いします！"
