@@ -257,5 +257,13 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link_text="user/70212875"
 >}}
 
+{{< performer
+  name="アゐミ缶"
+  img="/img/performer/33.jpg"
+  comment="読み方はアルミ缶で良いです！少しでも笑ってもらえる動画を作れるよう頑張ります！"
+  link="http://www.nicovideo.jp/user/70574972"
+  link_text="user/70574972"
+>}}
+
 
 
