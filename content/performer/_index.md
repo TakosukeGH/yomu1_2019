@@ -273,5 +273,21 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link_text="user/70574972"
 >}}
 
+{{< performer
+  name="ぼっちれもん"
+  img="/img/performer/34.jpg"
+  comment="わずかでも笑っていただくことができたなら、それ以上の幸せはありません"
+  link="http://www.nicovideo.jp/user/70130977"
+  link_text="user/70130977"
+>}}
+
+{{< performer
+  name="上尾一"
+  img="/img/performer/35.jpg"
+  comment="ボイロ漫才は初チャレンジ<br>がんばります"
+  link="http://www.nicovideo.jp/user/44300926"
+  link_text="user/44300926"
+>}}
+
 
 
