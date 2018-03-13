@@ -265,10 +265,17 @@ ul.posts article header .published {
 
 .post {
 	background: #1e1e1e;
+  padding: 0 3.0em 3.0em 3.0em;
+}
+
+.post > header {
+  /* margin: -2em 0 2em 0; */
+  margin: 0;
 }
 
 .post > header .title {
-	padding: 1.8em 2.5em 1.8em 2.5em;
+	/* padding: 1.8em 2.5em 1.8em 2.5em; */
+	padding: 1.5em 3.0em;
 }
 
 .post > header .title h1 {
@@ -283,6 +290,10 @@ ul.posts article header .published {
 
 .post > header .meta .published {
   font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#content {
+  margin-top: 1.8em;
 }
 
 #content p {
@@ -339,9 +350,17 @@ article.post h4 {
   opacity: 1.00;
 }
 
-/*デザイン変更箇所*/
+article.post .title h2 {
+	padding-left: 0em;
+  font-size: 1.8em;
+}
+article.post .title h2 a {
+  line-height: 30px;
+  vertical-align: middle;
+}
+
 article.post h1 {
-	font-size: 150%;
+	font-size: 1.8em;
 }
 
 article.post h2 {
