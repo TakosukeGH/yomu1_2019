@@ -1,6 +1,6 @@
 +++
-author = "読む-1グランプリ運営"
-categories = ["お知らせ"]
+author = ""
+categories = [""]
 date = ""
 description = ""
 featured = ""

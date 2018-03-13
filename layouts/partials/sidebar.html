@@ -19,10 +19,23 @@
         <p>{{ .paragraph | safeHTML }}</p>
       </header>
     {{ end }}
+    <table>
+      <tr>
+        <td><div class="end_event">参加者エントリー受付<br>締め切り：2018/3/10<br></div><div class="end_event_message">締め切りました</div></td>
+      </tr>
+      <tr>
+        <td>開催日：2018/4/1</td>
+      </tr>
+      <tr>
+        <td>結果発表：2018/4/16</td>
+      </tr>
+    </table>
     {{ if .Site.Params.socialAppearAtTop }}
       <ul class="icons">
         {{ if .Site.Params.rssAppearAtTop }}
-          {{ partial "rss-icon" . }}
+          <li>
+            <a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
         {{ end }}
         {{ partial "social" . }}
       </ul>
@@ -30,7 +43,7 @@
   </section>
 
   <!-- Posts List -->
-  <section class="recent-posts">
+  <!-- <section id="recent-posts">
     <div class="mini-posts">
       <header>
         <h3>Recent Posts</h3>
@@ -70,14 +83,13 @@
         class="button">View more posts</a>
       {{ end }}
     </div>
-  </section>
+  </section> -->
 
   <!-- This if statement only applies if someone goes to the /categories url -->
   <!-- Otherwise this section is shown for all other links -->
-  {{ if .Site.Params.showSidebarCategories  }}
   {{ if ne ($.Scratch.Get "showCategories") false }}
   <!-- Categories List -->
-    <section id="categories">
+    <!-- <section id="categories">
       <header>
         <h3>
           <a href="/categories/">Categories</a>
@@ -104,14 +116,13 @@
           </article>
         </p>
         {{ end }}
-    </section>
-  {{ end }}
+    </section> -->
   {{ end }}
 
   <!-- About -->
   {{ with .Site.Params.intro.about }}
     <section id="mini-bio">
-      <h3>About</h3>
+      <h3>About</h1>
       <p>{{ . | safeHTML }}</p>
       <a href="/about/" class="button">Learn More</a>
     </section>
@@ -122,7 +133,9 @@
     {{ if .Site.Params.socialAppearAtBottom }}
       <ul class="icons">
         {{ if .Site.Params.rssAppearAtBottom }}
-          {{ partial "rss-icon" . }}
+          <li>
+            <a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
         {{ end }}
         {{ partial "social" . }}
       </ul>

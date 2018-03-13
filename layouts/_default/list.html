@@ -14,15 +14,10 @@
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             {{ end }}
             {{ with .Description }}
-                <p>{{ . }}</p>
+                <!-- <h4>{{ . }}</h4> -->
             {{ end }}
         </div>
     </header>
-    <!-- <section id="social-share">
-      <ul class="icons">
-        {{ partial "share-links" . }}
-      </ul>
-    </section> -->
     <div id="content">
       {{ .Content }}
     </div>
