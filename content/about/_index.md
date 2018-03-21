@@ -22,18 +22,19 @@ description = "読ム-１グランプリ2018の概要ページです！"
 　  
 とにもかくにも一つご賞味いただけましたら幸いにございます！
 
-<br>
-
 # 運営リンク
 
-- [読ム-１グランプリ運営メール](<mailto:yomuwan@outlook.jp>)
+{{< links >}}
 - [大会ツイッターアカウント](https://twitter.com/Yomu_1GP)
 - [大会コミュニティ](https://com.nicovideo.jp/community/co3737919)
 - [運営アップローダー](https://ux.getuploader.com/YOMU_1GP2018/)
 - [質問箱](https://peing.net/yomu_1gp)
 - [質問箱まとめ](https://twitter.com/i/moments/948073734111354881)
+{{< /links >}}
 
-<br>
+{{< mail >}}
+- [読ム-１グランプリ運営メール](<mailto:yomuwan@outlook.jp>)
+{{< /mail >}}
 
 # 素材リンク
 
@@ -48,16 +49,14 @@ description = "読ム-１グランプリ2018の概要ページです！"
 読ム-１グランプリ告知で使用されたロゴアニメーションBB素材です。  
 こちらは[専用アップローダー](https://ux.getuploader.com/YOMU_1GP2018/download/7)からダウンロードしてご使用ください。
 
-<br>
-
 # 運営メンバー　（五十音順・敬称略）
 
+{{< managers >}}
 - [犬風邪P](https://twitter.com/inukazep)
 - [にじみこんいろ](https://twitter.com/suidasisan)
 - [破線](https://twitter.com/h_a_s_e_n)
 - [人コナーズ](http://www.nicovideo.jp/user/15326247)
-
-<br>
+{{< /managers >}}
 
 # 協賛
 
@@ -68,17 +67,10 @@ description = "読ム-１グランプリ2018の概要ページです！"
 > ・[幽道少女-タオガール-](http://ganma.jp/taogirl)  
 > ・[Twitter (@yahm_ai)](https://twitter.com/yahm_ai)
 
-
-<br>
-
-
 ## ＶＭ－１グランプリ運営様<br>(パトロセンタP様・目つき悪いP様)
 
 > 年末にニコニコ動画内で開催されているＶＯＣＡＬＯＩＤのオリジナル漫才コンテストの企画・運営を担当。  
 > ・[ＶＭ－１グランプリ2017 ホームページ](http://www.geocities.jp/r13_5034/11000/0700.html)  
 > ・[ＶＭ－１グランプリコミュニティ](http://com.nicovideo.jp/community/co627386)
-
-<br>
-
 
 
