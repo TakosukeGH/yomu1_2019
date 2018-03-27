@@ -480,6 +480,14 @@ table > tbody > tr > td:first-child {
   vertical-align: bottom;
 }
 
+.disqualified > img {
+  opacity: 0.75;
+}
+
+.disqualified-data {
+  opacity: 0.5;
+}
+
 .performer-column-left {
   min-width: 150px;
   padding-left: 1.0em;
@@ -504,6 +512,14 @@ table > tbody > tr > td:first-child {
   font-weight: bold;
 }
 
+.performer-disqualified-name {
+  font-size: 150%;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .performer-item-name > .performer-icon > i {
   padding-top: 1.0em;
   vertical-align: text-bottom;
@@ -518,6 +534,15 @@ table > tbody > tr > td:first-child {
 .performer-icon {
   padding-right: 0.5em;
 }
+
+.performer-movie > a {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.performer-movie > a:link { color: #fff980; }
+.performer-movie > a:visited { color: #fff980; }
+.performer-movie > a:active { color: #fff980; }
 
 @media screen and (max-width: 736px) {
 
