@@ -368,6 +368,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="わずかでも笑っていただくことができたなら、それ以上の幸せはありません"
   link="http://www.nicovideo.jp/user/70130977"
   link_text="user/70130977"
+  reason="大会ルールに反したため失格。"
 >}}
 
 {{< performer_disqualified
@@ -377,5 +378,6 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="ボイロ漫才は初チャレンジ<br>がんばります"
   link="http://www.nicovideo.jp/user/44300926"
   link_text="user/44300926"
+  reason="大会ルールに反したため失格。"
 >}}
 

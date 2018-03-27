@@ -544,6 +544,10 @@ table > tbody > tr > td:first-child {
 .performer-movie > a:visited { color: #fff980; }
 .performer-movie > a:active { color: #fff980; }
 
+.performer-reason {
+  color: #ff9999;
+}
+
 @media screen and (max-width: 736px) {
 
   .performer-img > img {
