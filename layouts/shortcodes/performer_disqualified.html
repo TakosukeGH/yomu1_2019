@@ -18,6 +18,11 @@
         <!-- <div class="performer-icon"><i class="fa fa-commenting fa-fw"></i></div> -->
         <div class="performer-data performer-comment disqualified-data">{{.Get "comment" | safeHTML }}</div>
       </div>
+      {{ if .Get "movie" }}
+      <div class="performer-item">
+        <div class="performer-data performer-disqualified-movie"><a href="http://www.nicovideo.jp/watch/sm{{.Get "movie" }}" target="_blank"><i class="fa fa-film fa-fw"></i> sm{{.Get "movie" }}</a></div>
+      </div>
+      {{ end }}
       <div class="performer-item">
         <!-- <div class="performer-icon"><i class="fa fa-commenting fa-fw"></i></div> -->
         <!-- <div class="performer-data performer-comment"><i class="fa fa-commenting fa-fw"></i> {{.Get "comment" | safeHTML }}</div> -->

@@ -49,7 +49,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   movie="32524053"
 >}}
 
-{{< performer
+{{< performer_disqualified
   number="5"
   name="のす。"
   img="/img/performer/05.jpg"
@@ -57,6 +57,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link="http://www.nicovideo.jp/user/8542639"
   link_text="user/8542639"
   movie="32524053"
+  reason="規定により失格。"
 >}}
 
 {{< performer
@@ -99,7 +100,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   movie="32524053"
 >}}
 
-{{< performer
+{{< performer_disqualified
   number="10"
   name="鰻節"
   img="/img/performer/10.jpg"
@@ -107,6 +108,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link="http://www.nicovideo.jp/user/11331599"
   link_text="user/11331599"
   movie="32524053"
+  reason="規定により失格。"
 >}}
 
 {{< performer
@@ -169,7 +171,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   movie="32524053"
 >}}
 
-{{< performer
+{{< performer_disqualified
   number="17"
   name="木の海"
   img="/img/performer/17.jpg"
@@ -177,6 +179,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link="http://www.nicovideo.jp/user/69397466"
   link_text="user/69397466"
   movie="32524053"
+  reason="規定により失格。"
 >}}
 
 {{< performer
@@ -339,28 +342,6 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   movie="32524053"
 >}}
 
-{{< performer
-  number="34"
-  name="ぼっちれもん"
-  img="/img/performer/34.jpg"
-  comment="わずかでも笑っていただくことができたなら、それ以上の幸せはありません"
-  link="http://www.nicovideo.jp/user/70130977"
-  link_text="user/70130977"
-  movie="32524053"
->}}
-
-{{< performer
-  number="35"
-  name="上尾一"
-  img="/img/performer/35.jpg"
-  comment="ボイロ漫才は初チャレンジ<br>がんばります"
-  link="http://www.nicovideo.jp/user/44300926"
-  link_text="user/44300926"
-  movie="32524053"
->}}
-
-# 失格
-
 {{< performer_disqualified
   number="34"
   name="ぼっちれもん"
@@ -368,7 +349,8 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="わずかでも笑っていただくことができたなら、それ以上の幸せはありません"
   link="http://www.nicovideo.jp/user/70130977"
   link_text="user/70130977"
-  reason="大会ルールに反したため失格。"
+  movie="32524053"
+  reason="規定により失格。"
 >}}
 
 {{< performer_disqualified
@@ -378,6 +360,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="ボイロ漫才は初チャレンジ<br>がんばります"
   link="http://www.nicovideo.jp/user/44300926"
   link_text="user/44300926"
-  reason="大会ルールに反したため失格。"
+  movie="32524053"
+  reason="規定により失格。"
 >}}
 

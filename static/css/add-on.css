@@ -481,7 +481,7 @@ table > tbody > tr > td:first-child {
 }
 
 .disqualified > img {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .disqualified-data {
@@ -535,7 +535,7 @@ table > tbody > tr > td:first-child {
   padding-right: 0.5em;
 }
 
-.performer-movie > a {
+.performer-movie > a, .performer-disqualified-movie > a {
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -543,6 +543,10 @@ table > tbody > tr > td:first-child {
 .performer-movie > a:link { color: #fff980; }
 .performer-movie > a:visited { color: #fff980; }
 .performer-movie > a:active { color: #fff980; }
+
+.performer-disqualified-movie > a:link { opacity: 0.5; }
+.performer-disqualified-movie > a:visited { opacity: 0.5; }
+.performer-disqualified-movie > a:active { opacity: 0.5; }
 
 .performer-reason {
   color: #ff9999;
