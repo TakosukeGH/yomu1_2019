@@ -61,16 +61,6 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
 >}}
 
 {{< performer
-  number="6"
-  name="おうどんおそば"
-  img="/img/performer/06.jpg"
-  comment="新参ですが記念参加したいです。"
-  link="http://www.nicovideo.jp/user/1177626"
-  link_text="user/1177626"
-  movie="32524053"
->}}
-
-{{< performer
   number="7"
   name="投稿専用"
   img="/img/performer/07.jpg"
