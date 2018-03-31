@@ -96,7 +96,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="動画制作を始めたばかりなので色々覚束ないですが頑張ります。"
   link="http://www.nicovideo.jp/user/11331599"
   link_text="user/11331599"
-
+  movie="32979161"
 >}}
 
 {{< performer
@@ -166,7 +166,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="気分任せに参加します"
   link="http://www.nicovideo.jp/user/69397466"
   link_text="user/69397466"
-
+  movie="32978658"
 >}}
 
 {{< performer
@@ -206,7 +206,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="ゆかり&あかりのあいを語る報復絶倒コントをお届けします。"
   link="http://www.nicovideo.jp/user/20192580"
   link_text="user/20192580"
-
+  movie="32907232"
 >}}
 
 {{< performer
@@ -226,7 +226,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="笑いの神が降りてくることを祈って参加します"
   link="http://www.nicovideo.jp/user/200723"
   link_text="user/200723"
-
+  movie="32945255"
 >}}
 
 {{< performer
@@ -236,7 +236,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="漫才のような動画をつくったことが無いですが頑張ります"
   link="http://www.nicovideo.jp/user/63434417"
   link_text="user/63434417"
-
+  movie="32901673"
 >}}
 
 {{< performer
