@@ -57,7 +57,6 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link="http://www.nicovideo.jp/user/8542639"
   link_text="user/8542639"
 
-  reason="規定により失格。"
 >}}
 
 {{< performer
