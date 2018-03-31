@@ -8,7 +8,7 @@ description = "読ム-１グランプリ2018特設サイト"
 <script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm32977546/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/sm32977546">2018年度　読ム-1グランプリ　開催式</a></noscript>
 
 {{< warning >}}
-各参加者の動画リンクと投票可/不可の情報を[参加者一覧](/performer/)ページに随時記載していきます。<br>
+各参加者の動画リンクと投票可/不可の情報を[参加者一覧](/performer/)ページに随時記載していきます。
 参加者の方々は[参加者一覧](/performer/)ページをご確認した上で投票をお願いします。
 {{< /warning >}}
 
