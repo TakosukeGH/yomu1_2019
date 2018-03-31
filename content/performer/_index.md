@@ -24,7 +24,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="のうみそ柔らかくしていいものを作れたらと思います。"
   link="http://www.nicovideo.jp/user/67064400"
   link_text="user/67064400"
-
+  movie="32979272"
 >}}
 
 {{< performer
@@ -196,7 +196,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="イベント事には初参加なので、張り切って参ります!<br>よろしくお願いします。"
   link="http://www.nicovideo.jp/user/3072138"
   link_text="user/3072138"
-
+  movie="32979401"
 >}}
 
 {{< performer
