@@ -14,7 +14,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="めっちゃがんばる"
   link="http://www.nicovideo.jp/user/66349338"
   link_text="user/66349338"
-
+  movie="32978939"
 >}}
 
 {{< performer
@@ -86,7 +86,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="運営ですがボイスロイド買ったので参加します。"
   link="http://www.nicovideo.jp/user/15326247"
   link_text="user/15326247"
-
+  movie="32977967"
 >}}
 
 {{< performer
@@ -186,7 +186,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="琴葉姉妹被るんだろうなぁ…"
   link="http://www.nicovideo.jp/user/22912681"
   link_text="user/22912681"
-
+  movie="32971282"
 >}}
 
 {{< performer
@@ -246,7 +246,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="ボイロ沼に浸かって半年ROMったので動画初投稿します。"
   link="http://www.nicovideo.jp/user/76037550"
   link_text="user/76037550"
-
+  movie="32976924"
 >}}
 
 {{< performer
@@ -286,7 +286,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="楽しんで漫才するので頑張って聞いてください！"
   link="http://www.nicovideo.jp/user/18247997"
   link_text="user/18247997"
-
+  movie="32977247"
 >}}
 
 {{< performer
@@ -316,7 +316,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="健全に面白くできればと思います"
   link="http://www.nicovideo.jp/user/70212875"
   link_text="user/70212875"
-
+  movie="32923882"
 >}}
 
 {{< performer
