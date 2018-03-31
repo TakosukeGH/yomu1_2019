@@ -256,7 +256,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="いろんなことに手を出していきたい若者です。よろしくお願いします"
   link="http://www.nicovideo.jp/user/57423366"
   link_text="user/57423366"
-
+  movie="32979248"
 >}}
 
 {{< performer
