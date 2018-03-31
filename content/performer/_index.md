@@ -116,7 +116,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="恐怖とギャグは紙一重！コントになるよう努力します"
   link="http://www.nicovideo.jp/user/26438903"
   link_text="user/26438903"
-
+  movie="32979347"
 >}}
 
 {{< performer
