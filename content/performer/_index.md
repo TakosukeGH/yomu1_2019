@@ -76,7 +76,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="みそ布団3人前"
   link="http://www.nicovideo.jp/user/66699248"
   link_text="user/66699248"
-
+  movie="32979241"
 >}}
 
 {{< performer
@@ -266,7 +266,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="さぁ、砂糖を吐かせてやろう・・・！！"
   link="http://www.nicovideo.jp/user/6058969"
   link_text="user/6058969"
-
+  movie="32978294"
 >}}
 
 {{< performer
@@ -306,7 +306,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="四月一日に動画抜きにならないように、頑張って制作します。よろしくお願いします！"
   link="http://www.nicovideo.jp/user/73175678"
   link_text="user/73175678"
-
+  movie="32979265"
 >}}
 
 {{< performer
