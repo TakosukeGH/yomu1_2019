@@ -354,3 +354,5 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   reason="規定により失格。"
 >}}
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeuzFmhYdOxnfFi4YHqRG4cyiv_a1B7peIDevIWkYLOplnsA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+
