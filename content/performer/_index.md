@@ -3,6 +3,10 @@ title = "参加者一覧"
 description = "読ム-１グランプリ2018の参加者一覧ページです！"
 +++
 
+{{< links >}}
+- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
+{{< /links >}}
+
 <div>
 ※掲載順序はエントリー順です。
 <div>

@@ -32,6 +32,10 @@ description = "読ム-１グランプリ2018の概要ページです！"
 - [質問箱まとめ](https://twitter.com/i/moments/948073734111354881)
 {{< /links >}}
 
+{{< links >}}
+- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
+{{< /links >}}
+
 {{< mail >}}
 - [読ム-１グランプリ運営メール](<mailto:yomuwan@outlook.jp>)
 {{< /mail >}}

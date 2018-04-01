@@ -7,10 +7,9 @@ description = "読ム-１グランプリ2018特設サイト"
 
 <script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm32977546/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/sm32977546">2018年度　読ム-1グランプリ　開催式</a></noscript>
 
-現在投稿動画のマイリスト作成中です！
-
-作品一覧をご覧になるときは、
-[こちらのニコニコタグ検索](http://www.nicovideo.jp/tag/%E8%AA%AD%E3%83%A0-%EF%BC%91_2018?sort=f&order=a)をご利用下さい。
+{{< links >}}
+- [**大会マイリストはこちらから**](http://www.nicovideo.jp/mylist/61478669)
+{{< /links >}}
 
 {{< warning >}}
 各参加者の動画リンクと投票可/不可の情報を[参加者一覧](/performer/)ページに随時記載していきます。
@@ -62,6 +61,10 @@ description = "読ム-１グランプリ2018特設サイト"
 - [運営アップローダー](https://ux.getuploader.com/YOMU_1GP2018/)
 - [質問箱](https://peing.net/yomu_1gp)
 - [質問箱まとめ](https://twitter.com/i/moments/948073734111354881)
+{{< /links >}}
+
+{{< links >}}
+- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
 {{< /links >}}
 
 {{< mail >}}

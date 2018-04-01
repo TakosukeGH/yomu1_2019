@@ -164,6 +164,10 @@ description = "読ム-１グランプリ2018の大会ルール・エントリー
 - [運営アップローダー](https://ux.getuploader.com/YOMU_1GP2018/)
 {{< /links >}}
 
+{{< links >}}
+- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
+{{< /links >}}
+
 {{< mail >}}
 - [読ム-１グランプリ運営メール](<mailto:yomuwan@outlook.jp>)
 {{< /mail >}}
