@@ -111,7 +111,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="ボイロ娘と参加致します。運営さんやA◯Sさんに消されないギリギリのラインを攻めていけたらと考えております。"
   link="http://www.nicovideo.jp/user/21478479"
   link_text="user/21478479"
-
+  movie="32848401"
 >}}
 
 {{< performer
@@ -151,7 +151,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="笑わせる劇場なら何でもよさそうなので参加します"
   link="http://www.nicovideo.jp/user/252602"
   link_text="user/252602"
-
+  movie="32983788"
 >}}
 
 {{< performer
@@ -281,7 +281,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="オナホ系のネタでがんばります！"
   link="http://www.nicovideo.jp/user/8977680"
   link_text="user/8977680"
-
+  movie="32983589"
 >}}
 
 {{< performer
@@ -351,6 +351,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="ボイロ漫才は初チャレンジ<br>がんばります"
   link="http://www.nicovideo.jp/user/44300926"
   link_text="user/44300926"
+  movie="32983495"
 >}}
 
 
