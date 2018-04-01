@@ -3,14 +3,15 @@ title = "参加者一覧"
 description = "読ム-１グランプリ2018の参加者一覧ページです！"
 +++
 
-{{< links >}}
-- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
-{{< /links >}}
+<div>
+※大会マイリストは<a href="http://www.nicovideo.jp/mylist/61478669">こちら</a>です。
+</div>
 
 <div>
 ※掲載順序はエントリー順です。
-<div>
+</div>
 <br>
+
 {{< performer
   number="1"
   name="佐久知"
