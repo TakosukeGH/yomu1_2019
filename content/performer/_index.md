@@ -136,7 +136,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="「よし！二人でやる話芸やな！（曲解）」"
   link="http://www.nicovideo.jp/user/39276850"
   link_text="西犯 user/39276850"
-
+  movie="32982342"
 >}}
 
 {{< performer
