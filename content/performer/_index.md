@@ -34,7 +34,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="多分いつも通りです"
   link="http://www.nicovideo.jp/user/15259061"
   link_text="user/15259061"
-
+  movie="32981144"
 >}}
 
 {{< performer
@@ -46,7 +46,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   link_text="user/398912"
   link2="http://www.nicovideo.jp/mylist/56818264"
   link2_text="mylist/56818264"
-
+  movie="32981038"
 >}}
 
 {{< performer
@@ -56,7 +56,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="饅頭ﾄﾞｽｺｲ"
   link="http://www.nicovideo.jp/user/8542639"
   link_text="user/8542639"
-
+  movie="32980928"
 >}}
 
 {{< performer
@@ -66,7 +66,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="目標は1票以上です。(2票ではない)"
   link="http://www.nicovideo.jp/user/15554082"
   link_text="user/15554082"
-
+  movie="32980686"
 >}}
 
 {{< performer
@@ -156,7 +156,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="動画単位でのシナリオの作成も編集も今回が初ですがまあ時間と気合があればどうにかなるでしょう。先輩方の胸を借りるつもりで頑張ります!"
   link="http://www.nicovideo.jp/user/75666479"
   link_text="user/75666479"
-
+  movie="32980711"
 >}}
 
 {{< performer
@@ -335,6 +335,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="わずかでも笑っていただくことができたなら、それ以上の幸せはありません"
   link="http://www.nicovideo.jp/user/70130977"
   link_text="user/70130977"
+  movie="32980333"
 >}}
 
 {{< performer
