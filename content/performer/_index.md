@@ -124,14 +124,14 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   movie="32979347"
 >}}
 
-{{< performer
+{{< performer_disqualified
   number="13"
   name="あやゆく"
   img="/img/performer/13.jpg"
   comment="初投稿です。ルール見てついつい思いついたことを形に。しかたない。しょうもないことめっちゃ好っきやねん。"
   link="http://www.nicovideo.jp/user/21488756"
   link_text="user/21488756"
-
+  reason="投稿期間内に投稿できなかった為投票できません。"
 >}}
 
 {{< performer
