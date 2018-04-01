@@ -176,7 +176,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="頑張ります。"
   link="http://www.nicovideo.jp/user/76765590"
   link_text="user/76765590"
-
+  movie="32981919"
 >}}
 
 {{< performer
@@ -216,7 +216,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="少しでも多くの草が生えるように頑張ります（名前は、えむあいです）"
   link="http://www.nicovideo.jp/user/352624"
   link_text="user/352624"
-
+  movie="32960563"
 >}}
 
 {{< performer
@@ -326,6 +326,7 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
   comment="読み方はアルミ缶で良いです！少しでも笑ってもらえる動画を作れるよう頑張ります！"
   link="http://www.nicovideo.jp/user/70574972"
   link_text="user/70574972"
+  movie="32981799"
 >}}
 
 {{< performer
