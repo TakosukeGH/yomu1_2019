@@ -125,15 +125,6 @@ description = "読ム-１グランプリ2018の参加者一覧ページです！
 >}}
 
 {{< performer
-  number="13"
-  name="あやゆく"
-  img="/img/performer/13.jpg"
-  comment="初投稿です。ルール見てついつい思いついたことを形に。しかたない。しょうもないことめっちゃ好っきやねん。"
-  link="http://www.nicovideo.jp/user/21488756"
-  link_text="user/21488756"
->}}
-
-{{< performer
   number="14"
   name="チーム「忍者綴方狂室」"
   img="/img/performer/14.jpg"
