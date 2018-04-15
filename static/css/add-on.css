@@ -715,3 +715,61 @@ table > tbody > tr > td:first-child {
   background-color: #252525;
 }
 
+.result {
+  margin-bottom: 5em;
+}
+
+.rank {
+  font-weight: bold;
+  text-align: center;
+}
+
+.first {
+  font-size: 3em;
+  background: #333;
+  background: -webkit-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.second {
+  font-size:2.5em;
+  background: #333;
+  background: -webkit-linear-gradient(top, #A5A5A5 0%,#BABAC2 50%,#E8E8E8 51%,#BABAC2 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.third {
+  font-size: 2.5em;
+  background: #333;
+  background: -webkit-linear-gradient(top, #F3A960 0%,#FFD8B1 50%,#CD7F32 51%,#F3A960 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fourth {
+  font-size: 2.0em;
+}
+
+.fifth {
+  font-size: 1.5em;
+}
+
+.result_movie {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.movie {
+  text-align: center;
+}
+
+.result > table > tbody > tr > td {
+  border:none;
+}
+
+.result > table > tbody > tr:nth-child(even) > td {
+  background-color: #252525;
+}
