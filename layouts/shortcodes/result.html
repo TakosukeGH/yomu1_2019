@@ -11,8 +11,6 @@
 {{ end }}
 
 {{ if eq (.Get "rank") "2" }}
-<div class="border_img_second">
-<div class="rank_box_second">
 <div class="rank second rank_title_second">準優勝</div>
   {{ with .Get "src" }}
   <table align="center">
@@ -27,12 +25,9 @@
     </tbody>
   </table>
   {{ end }}
-</div>
-</div>
 {{ end }}
 
 {{ if eq (.Get "rank") "3" }}
-<div class="rank_box_third">
 <div class="rank third rank_title_third">４位</div>
   {{ with .Get "src" }}
   <table align="center">
@@ -47,7 +42,6 @@
     </tbody>
   </table>
   {{ end }}
-</div>
 {{ end }}
 
 {{ if eq (.Get "rank") "4" }}
