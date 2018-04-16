@@ -46,3 +46,7 @@ title = "結果発表"
 7    | 23  | みしまコロ助   | {{< blank movie="32945255" >}}
 7    | 33  | アゐミ缶       | {{< blank movie="32981799" >}}
 
+{{< links >}}
+- [**大会マイリストはこちらから**](http://www.nicovideo.jp/mylist/61478669)
+{{< /links >}}
+
