@@ -1,43 +1,88 @@
 <div class="result">
 
 {{ if eq (.Get "rank") "1" }}
-<div class="rank first">優勝</div>
-<div class="rank first">No.{{ .Get "number" }}　{{ .Get "name" }}</div>
-<div class="rank first"><a href="http://www.nicovideo.jp/watch/sm{{.Get "movie" }}" target="_blank">sm{{.Get "movie" }}</a></div>
+<div class="border_img">
+<div class="rank_box">
+  <div class="rank first rank_title_first">優勝</div>
+  <div class="rank first">No.{{ .Get "number" }}　{{ .Get "name" }}</div>
+  <div class="rank first"><a href="http://www.nicovideo.jp/watch/sm{{.Get "movie" }}" target="_blank">sm{{.Get "movie" }}</a></div>
+</div>
+</div>
 {{ end }}
 
 {{ if eq (.Get "rank") "2" }}
-<div class="rank second">準優勝</div>
+<div class="rank second rank_title_second">準優勝</div>
   {{ with .Get "src" }}
-    {{ range $i, $r := getCSV "," . }}
-    <div class="rank second">No.{{ index $r 0 }}　{{ index $r 1 }}　<a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div>
-    {{ end }}
+  <table align="center">
+    <tbody>
+      {{ range $i, $r := getCSV "," . }}
+      <tr>
+        <td><div class="second">No.{{ index $r 0 }}</div></td>
+        <td><div class="second">{{ index $r 1 }}</div></td>
+        <td><div class="second"><a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
   {{ end }}
 {{ end }}
 
 {{ if eq (.Get "rank") "3" }}
-<div class="rank third">４位</div>
+<div class="rank third rank_title_third">４位</div>
   {{ with .Get "src" }}
-    {{ range $i, $r := getCSV "," . }}
-    <div class="rank third">No.{{ index $r 0 }}　{{ index $r 1 }}　<a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div>
-    {{ end }}
+  <table align="center">
+    <tbody>
+      {{ range $i, $r := getCSV "," . }}
+      <tr>
+        <td><div class="third">No.{{ index $r 0 }}</div></td>
+        <td><div class="third">{{ index $r 1 }}</div></td>
+        <td><div class="third"><a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
   {{ end }}
 {{ end }}
 
 {{ if eq (.Get "rank") "4" }}
 <div class="rank fourth">５位</div>
   {{ with .Get "src" }}
-    {{ range $i, $r := getCSV "," . }}
-    <div class="rank fourth">No.{{ index $r 0 }}　{{ index $r 1 }}　<a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div>
-    {{ end }}
+  <table align="center" class="fourth">
+    <tbody>
+      {{ range $i, $r := getCSV "," . }}
+      <tr>
+        <td>No.{{ index $r 0 }}</td>
+        <td>{{ index $r 1 }}</td>
+        <td><a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
   {{ end }}
 {{ end }}
 
 {{ if eq (.Get "rank") "5" }}
 <div class="rank fifth">７位</div>
   {{ with .Get "src" }}
+  <table align="center" class="fifth">
+    <tbody>
+      {{ range $i, $r := getCSV "," . }}
+      <tr>
+        <td>No.{{ index $r 0 }}</td>
+        <td>{{ index $r 1 }}</td>
+        <td><a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  {{ end }}
+{{ end }}
+
+{{ if eq (.Get "rank") "6" }}
+<div class="rank fourth">Ｘ位</div>
+  {{ with .Get "src" }}
     {{ range $i, $r := getCSV "," . }}
-    <div class="rank fifth">No.{{ index $r 0 }}　{{ index $r 1 }}　<a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div>
+    <div class="rank fourth">No.{{ index $r 0 }}　{{ index $r 1 }}　<a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">sm{{ index $r 2 }}</a></div>
     {{ end }}
   {{ end }}
 {{ end }}
