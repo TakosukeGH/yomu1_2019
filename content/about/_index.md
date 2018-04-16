@@ -25,9 +25,9 @@ description = "読ム-１グランプリ2018の概要ページです！"
 # 運営リンク
 
 {{< links >}}
+- [大会ニコニコアカウント](http://www.nicovideo.jp/user/72128077)
 - [大会ツイッターアカウント](https://twitter.com/Yomu_1GP)
 - [大会コミュニティ](https://com.nicovideo.jp/community/co3737919)
-- [運営アップローダー](https://ux.getuploader.com/YOMU_1GP2018/)
 - [質問箱](https://peing.net/yomu_1gp)
 - [質問箱まとめ](https://twitter.com/i/moments/948073734111354881)
 {{< /links >}}
