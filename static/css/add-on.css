@@ -848,7 +848,8 @@ table > tbody > tr > td:first-child {
   /* background: #fff; */
   margin-bottom: 30px;
   position: relative;
-  box-shadow: 0 0 5px #ccc;
+  /* box-shadow: 0 0 5px #ccc; */
+  box-shadow: 0 0 5px #000;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -864,19 +865,3 @@ table > tbody > tr > td:first-child {
   position: relative;
 }
 
-
-@media screen and (max-width: 980px) {
-  .post {
-    border-left: 0;
-    border-right: 0;
-    left: -3em;
-    width: calc(100% + (3em * 2));
-  }
-}
-
-@media screen and (max-width: 736px) {
-  .post {
-    left: -1.5em;
-    width: calc(100% + (1.5em * 2));
-  }
-}
