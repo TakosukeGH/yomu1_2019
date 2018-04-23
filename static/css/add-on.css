@@ -844,3 +844,39 @@ table > tbody > tr > td:first-child {
   background-image: url("/img/result/back_1024_003.png");
 }
 
+.box-masonry {
+  /* background: #fff; */
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 0 5px #ccc;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.box-masonry .box-masonry-text {
+    padding: 15px 20px 15px;
+}
+
+.gift {
+  position: relative;
+}
+
+
+@media screen and (max-width: 980px) {
+  .post {
+    border-left: 0;
+    border-right: 0;
+    left: -3em;
+    width: calc(100% + (3em * 2));
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .post {
+    left: -1.5em;
+    width: calc(100% + (1.5em * 2));
+  }
+}

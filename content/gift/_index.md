@@ -2,6 +2,5 @@
 title = "いただき物"
 +++
 
-# 支援絵募集中
-
+{{< gift src="/static/csv/gift.csv" >}}
 

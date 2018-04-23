@@ -1,0 +1,24 @@
+{{ with .Get "src" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+  <div class="grid">
+    <div class="row">
+    {{ range $i, $r := getCSV "," . }}
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+        <div class="box-masonry">
+          <a href="/img/gift/{{ index $r 3 }}.png" data-fancybox="fuka" data-caption="{{ index $r 4 }}">
+            <img src="/img/gift/{{ index $r 3 }}.png" alt="" class="img-responsive">
+          </a>
+          <div class="box-masonry-text">
+            <h3>
+            <a href="http://www.nicovideo.jp/watch/sm{{ index $r 2 }}" target="_blank">{{ index $r 4 }}</a></h3>
+            <div class="box-masonry-description">
+              <a href="http://www.nicovideo.jp/user/{{ index $r 5 }}" target="_blank">No.{{ index $r 0 }} / {{ index $r 1 }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

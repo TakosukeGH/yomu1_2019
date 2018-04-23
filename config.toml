@@ -139,11 +139,11 @@ pluralizeListTitles = false
   identifier = "fa fa-flag-checkered"
   weight = 7
 
-# [[menu.main]]
-#   name = "いただき物"
-#   url = "/gift/"
-#   identifier = "fa fa-gift"
-#   weight = 8
+[[menu.main]]
+  name = "いただき物"
+  url = "/gift/"
+  identifier = "fa fa-gift"
+  weight = 8
 
 # [[menu.main]]
 #   name = "Categories"
