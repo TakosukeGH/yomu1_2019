@@ -1,11 +1,11 @@
 +++
 title = "HOME"
-description = "読ム-１グランプリ2018特設サイト"
+description = "読ム-１グランプリ2019特設サイト"
 +++
 
 # 結果発表動画
 
-<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm33062730/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/sm33062730">2018年度　読ム-1グランプリ　結果発表</a></noscript>
+<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm33062730/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/sm33062730">2019年度　読ム-1グランプリ　結果発表</a></noscript>
 
 {{< links >}}
 - [**大会マイリストはこちらから**](http://www.nicovideo.jp/mylist/61478669)
