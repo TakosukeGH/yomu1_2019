@@ -43,7 +43,9 @@ Hugoについてですが、これは静的サイトジェネレータと言わ�
 <https://www.imuza.com/entry/2018/02/09/164628>
 <https://knooto.info/hugo/>
 
-
+※Hugo公式サイトでは各種パッケージマネージャを使用したインストール方法が案内されてますので、
+パッケージマネージャ使用する方は↓の内容を確認して下さい。
+<https://gohugo.io/getting-started/installing/>
 
 
 
