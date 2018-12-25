@@ -64,7 +64,7 @@ pluralizeListTitles = false
 [params.intro]
   header    = "読ム-１グランプリ"
 
-  paragraph = "TTS漫才大会"
+  paragraph = "合成音声漫才大会"
 
   # about     = "about sample text"
 
