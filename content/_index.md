@@ -5,7 +5,7 @@ description = "読ム-１グランプリ2019特設サイト"
 
 # 関連動画
 
-<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm33062730/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/sm33062730">2019年度　読ム-1グランプリ　結果発表</a></noscript>
+<script type="application/javascript" src="https://embed.nicovideo.jp/watch/1546322279/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/1546322279">2019年度　読ム-1グランプリ　結果発表</a></noscript>
 
 # 過去の大会
 
