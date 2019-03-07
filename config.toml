@@ -97,41 +97,17 @@ pluralizeListTitles = false
   identifier = "fa fa-question-circle"
   weight = 2
 
-# [[menu.main]]
-#   name = "募集要項"
-#   url = "/entry/"
-#   identifier = "fa fa-id-card-o"
-#   weight = 3
-#
-# [[menu.main]]
-#   name = "Blog"
-#   url = "/blog/"
-#   identifier = "fa fa-newspaper-o"
-#   weight = 3
-
 [[menu.main]]
   name = "ルール・エントリー方法"
   url = "/rule/"
   identifier = "fa fa-book"
+  weight = 3
+
+[[menu.main]]
+  name = "参加者一覧"
+  url = "/performer/"
+  identifier = "fa fa-users"
   weight = 4
-
-# [[menu.main]]
-#   name = "Itemized"
-#   url = "/itemized/"
-#   identifier = "fa fa-list"
-#   weight = 4
-
-# [[menu.main]]
-#   name = "スケジュール"
-#   url = "/schedule/"
-#   identifier = "fa fa-calendar"
-#   weight = 5
-
-# [[menu.main]]
-#   name = "参加者一覧"
-#   url = "/performer/"
-#   identifier = "fa fa-users"
-#   weight = 6
 
 # [[menu.main]]
 #   name = "結果発表"
