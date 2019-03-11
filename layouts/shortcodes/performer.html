@@ -3,28 +3,33 @@
 <div class="performer" id="{{ index $r 1 }}">
   <div class="performer-base">
     <div class="performer-img">
-      <img src="/img/performer/{{ index $r 5 }}.jpg">
+      <img src="/img/performer/{{ index $r 6 }}.jpg">
     </div>
     <div class="performer-items">
       <div class="performer-item performer-item-name">
         <div class="performer-data performer-name">No.{{ index $r 0 }}　{{ index $r 1 }}</div>
       </div>
-      {{ if index $r 6 }}
+      {{ if index $r 2 }}
       <div class="performer-item">
-        <div class="performer-data performer-url"><a href="{{ index $r 6 }}" target="_blank">{{ index $r 7 }}</a></div>
+        <div class="performer-data performer-url"><a href="http://www.nicovideo.jp/user/{{ index $r 2 }}" target="_blank">user/{{ index $r 2 }}</a></div>
+      </div>
+      {{ end }}
+      {{ if index $r 3 }}
+      <div class="performer-item">
+        <div class="performer-data performer-url"><a href="http://www.nicovideo.jp/user/{{ index $r 3 }}" target="_blank">user/{{ index $r 3 }}</a></div>
       </div>
       {{ end }}
       <div class="performer-item">
-        <div class="performer-data performer-comment">{{ index $r 3 | safeHTML }}</div>
+        <div class="performer-data performer-comment">{{ index $r 4 | safeHTML }}</div>
       </div>
       {{ if index $r 8 }}
       <div class="performer-item">
         <div class="performer-data performer-url"><a href="{{ index $r 8 }}" target="_blank"><i class="fa fa-link fa-fw"></i> {{ index $r 9 }}</a></div>
       </div>
       {{ end }}
-      {{ if index $r 4 }}
+      {{ if index $r 5 }}
       <div class="performer-item">
-        <div class="performer-data performer-movie"><a href="http://www.nicovideo.jp/watch/sm{{ index $r 4 }}" target="_blank"><i class="fa fa-film fa-fw"></i> sm{{ index $r 4 }}</a></div>
+        <div class="performer-data performer-movie"><a href="http://www.nicovideo.jp/watch/sm{{ index $r 5 }}" target="_blank"><i class="fa fa-film fa-fw"></i> sm{{ index $r 5 }}</a></div>
       </div>
       {{ end }}
     </div>
