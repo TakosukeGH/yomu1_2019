@@ -33,7 +33,7 @@ description = "読ム-１グランプリ2019の概要ページです！"
 {{< /links >}}
 
 {{< links >}}
-- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
+- [**大会マイリスト**](http://www.nicovideo.jp/mylist/65165304)
 {{< /links >}}
 
 {{< mail >}}
