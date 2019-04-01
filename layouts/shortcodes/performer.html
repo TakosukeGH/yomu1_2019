@@ -29,7 +29,7 @@
       {{ end }}
       {{ if index $r 5 }}
       <div class="performer-item">
-        <div class="performer-data performer-movie"><a href="http://www.nicovideo.jp/watch/sm{{ index $r 5 }}" target="_blank"><i class="fa fa-film fa-fw"></i> sm{{ index $r 5 }}</a></div>
+        <div class="performer-data performer-movie"><a href="http://www.nicovideo.jp/watch/{{ index $r 5 }}" target="_blank"><i class="fa fa-film fa-fw"></i> {{ index $r 5 }}</a></div>
       </div>
       {{ end }}
     </div>
