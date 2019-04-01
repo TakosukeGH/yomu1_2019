@@ -3,9 +3,13 @@ title = "HOME"
 description = "読ム-１グランプリ2019特設サイト"
 +++
 
-# 開催告知動画
+# 開催式動画
 
-<script type="application/javascript" src="https://embed.nicovideo.jp/watch/1546322279/script?w=720&h=480"></script><noscript><a href="http://www.nicovideo.jp/watch/1546322279">2019年度　読ム-1グランプリ　開催告知</a></noscript>
+<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm34888411/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm34888411">2019年度　読ム-1グランプリ　開催式</a></noscript>
+
+{{< links >}}
+- [**大会マイリストはこちらから**](http://www.nicovideo.jp/mylist/65165304)
+{{< /links >}}
 
 # 過去の大会
 
@@ -22,7 +26,7 @@ description = "読ム-１グランプリ2019特設サイト"
 {{< /links >}}
 
 {{< links >}}
-- [**大会マイリスト**](http://www.nicovideo.jp/mylist/61478669)
+- [**大会マイリスト**](http://www.nicovideo.jp/mylist/65165304)
 {{< /links >}}
 
 {{< mail >}}
