@@ -56,6 +56,7 @@ description = "読ム-１グランプリ2019の概要ページです！"
 # 運営メンバー　（五十音順・敬称略）
 
 {{< managers >}}
+- [𝘁𝗮𝗰𝗸](https://twitter.com/myut1015)
 - [にじみこんいろ](https://twitter.com/suidasisan)
 - [のす。](https://twitter.com/nosuwaiyo)
 - [人コナーズ](http://www.nicovideo.jp/user/15326247)
